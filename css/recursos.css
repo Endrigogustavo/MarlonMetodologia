@@ -1,0 +1,14 @@
+.img__card{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card__recurso:hover{
+    transform: scale(1.015);
+    transition-duration: 0.5s;
+}
+
+.box a:hover{
+    text-decoration: underline;
+}
