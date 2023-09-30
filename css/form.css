@@ -9,13 +9,10 @@
 }
 
 body {
-    background: #ffffff;
-    color: white;
-    font-weight: 500;
-    display: flex;
-    min-height: 100vh;
-    min-width: 100vw;
-    overflow-y: hidden;
+    font-family: "Roboto", sans-serif;
+    color:  #05141a;
+    background-color: hwb(270 81% 17%);
+    overflow-x: hidden;
 }
 
 main {
@@ -24,6 +21,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 span{
@@ -115,9 +113,9 @@ main form input[type="submit"] {
     width: 50%;
     margin-top: 2rem;
     border: none;
-    border-radius: 32px;
-    background: #6C63FF;
-    color: #0C0C0C;
+    border-radius: 12px;
+    background:#212529;
+    color: #ffffff;
     font-size: 1.1rem;
     transition: all .3s ease-in-out;
 }
@@ -144,7 +142,7 @@ section.images .circle {
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, #0C0C0C, #636FA4);
+    background: linear-gradient(45deg, #0C0C0C, #212529);
     clip-path: circle(40% at right 80%);
     z-index: -1;
 }
