@@ -1,3 +1,13 @@
+#container__body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
 .img__card{
     width: 100px;
     border-radius: 50%;
